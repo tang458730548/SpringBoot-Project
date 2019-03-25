@@ -1,0 +1,522 @@
+2019-03-25 19:28:20.727 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 16220 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:28:20.731 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:28:20.785 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:28:20.785 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 19:28:22.184 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 19:28:22.196 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:28:22.203 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 19:28:22.203 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 19:28:22.214 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-25 19:28:22.336 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 19:28:22.336 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1550 ms
+2019-03-25 19:28:22.367 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 19:28:22.375 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 19:28:22.375 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 19:28:22.375 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 19:28:22.375 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 19:28:22.620 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:28:22.777 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 19:28:22.856 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 19:28:22.888 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:28:22.972 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 19:28:22.992 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 19:28:22.996 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 2.825 seconds (JVM running for 4.235)
+2019-03-25 19:28:38.955 febs [http-nio-9888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:28:38.956 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:28:38.966 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-03-25 19:29:37.837 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 2096 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:29:37.841 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:29:37.898 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:29:37.898 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 19:29:39.141 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 19:29:39.155 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:29:39.159 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 19:29:39.160 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 19:29:39.169 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-25 19:29:39.260 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 19:29:39.261 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1363 ms
+2019-03-25 19:29:39.284 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 19:29:39.289 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 19:29:39.290 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 19:29:39.290 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 19:29:39.290 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 19:29:39.517 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:29:39.633 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 19:29:39.697 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 19:29:39.724 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:29:39.798 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 19:29:39.813 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 19:29:39.817 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 2.72 seconds (JVM running for 4.02)
+2019-03-25 19:29:46.356 febs [http-nio-9888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:29:46.356 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:29:46.362 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-03-25 19:30:01.729 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:30:01.734 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:30:01.789 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:30:01.789 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 19:30:02.982 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 19:30:02.999 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:30:03.005 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 19:30:03.005 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 19:30:03.012 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-25 19:30:03.109 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 19:30:03.109 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1320 ms
+2019-03-25 19:30:03.130 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 19:30:03.134 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 19:30:03.134 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 19:30:03.134 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 19:30:03.134 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 19:30:03.339 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:30:03.467 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 19:30:03.530 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 19:30:03.632 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:30:03.647 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 19:30:03.663 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 19:30:03.667 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 2.481 seconds (JVM running for 3.508)
+2019-03-25 19:30:07.261 febs [http-nio-9888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:30:07.261 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:30:07.267 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-03-25 19:53:27.014 febs [Thread-11] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:53:27.676 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:53:27.677 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:53:28.101 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 19:53:28.102 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:53:28.103 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 19:53:28.103 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 19:53:28.144 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 19:53:28.145 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 464 ms
+2019-03-25 19:53:28.156 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 19:53:28.157 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 19:53:28.157 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 19:53:28.157 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 19:53:28.157 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 19:53:28.217 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:53:28.260 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 19:53:28.283 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 19:53:28.303 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 19:53:28.304 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 19:53:28.312 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 19:53:28.313 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 0.696 seconds (JVM running for 1408.154)
+2019-03-25 19:53:28.317 febs [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-03-25 19:53:31.710 febs [Thread-19] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:53:32.162 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:53:32.162 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:53:38.328 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 9696 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:53:38.330 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 19:56:23.290 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:56:23.292 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 19:56:23.302 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:56:23.302 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:56:26.924 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 15200 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:56:26.925 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 19:56:57.346 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:56:57.346 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 19:56:57.356 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:56:57.357 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:56:59.064 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:56:59.065 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 19:56:59.076 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:56:59.077 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:57:01.760 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 21032 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:57:01.761 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 19:58:36.573 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:58:36.573 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 19:58:36.584 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:58:36.584 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 19:58:38.403 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 17528 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 19:58:38.405 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 19:58:40.794 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:58:41.291 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 19:58:41.498 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 19:58:41.499 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 19:58:41.500 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 19:58:41.546 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 19:58:42.111 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.395 seconds (JVM running for 5.965)
+2019-03-25 19:58:42.265 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:01:41.059 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:01:41.059 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:01:41.067 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:01:41.068 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:01:42.771 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:01:42.771 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:01:42.782 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:01:42.783 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:01:44.888 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 18584 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:01:44.890 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 20:01:46.951 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:01:47.370 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 20:01:47.557 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 20:01:47.558 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 20:01:47.559 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 20:01:47.571 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 20:01:48.075 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 3.898 seconds (JVM running for 5.382)
+2019-03-25 20:01:48.187 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:03:15.356 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:03:15.357 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:03:15.378 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:03:15.378 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:03:17.098 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:03:17.098 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:03:17.108 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:03:17.108 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:03:19.844 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 23652 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:03:19.845 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 20:03:22.517 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:03:23.073 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 20:03:23.296 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 20:03:23.297 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 20:03:23.299 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 20:03:23.299 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 20:03:23.675 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.547 seconds (JVM running for 6.48)
+2019-03-25 20:03:24.534 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:04:22.492 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:04:22.492 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:04:22.501 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:04:22.501 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:04:25.176 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:04:25.177 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:04:25.189 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:04:25.190 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:04:26.978 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 21236 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:04:26.979 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 20:04:29.758 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:04:30.120 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 20:04:30.250 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 20:04:30.252 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 20:04:30.253 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 20:04:30.254 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 20:04:30.656 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.392 seconds (JVM running for 5.948)
+2019-03-25 20:04:31.097 febs [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Starting...
+2019-03-25 20:04:31.527 febs [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Start completed.
+2019-03-25 20:04:31.606 febs [main] INFO  c.s.z.c.i.SqlStatementInterceptor - 【SQL语句id】>>>> com.springboot.ztproject.dao.TbUserDao.selectAll
+2019-03-25 20:04:31.606 febs [main] INFO  c.s.z.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 525 ms
+2019-03-25 20:04:31.606 febs [main] INFO  c.s.z.c.i.SqlStatementInterceptor - 【SQL语句】>>>> SELECT user_id,username,password,dept_id,email,mobile,status,create_time,modify_time,last_login_time,ssex,description,avatar FROM t_user
+2019-03-25 20:04:31.609 febs [main] INFO  c.s.ztproject.test.MyTestOne - -----------------[TbUser(userId=1, username=mrbird, password=94f860c4bbfeb2f49c84e321fdda4b07, deptId=1, email=mrbird123@hotmail.com, mobile=13455533233, status=1, createTime=Wed Dec 27 23:47:19 CST 2017, modifyTime=Thu Jan 17 10:34:19 CST 2019, lastLoginTime=Wed Mar 06 14:25:34 CST 2019, ssex=2, description=我是帅比作者。, avatar=ubnKSIfAJTxIgXOKlciN.png), TbUser(userId=2, username=scott, password=7b44a5363e3fd52435beb472e1d2b91f, deptId=6, email=scott@qq.com, mobile=15134627380, status=1, createTime=Sat Dec 30 00:16:39 CST 2017, modifyTime=Fri Jan 18 08:59:09 CST 2019, lastLoginTime=Mon Jan 28 09:54:09 CST 2019, ssex=0, description=我是scott，嗯嗯, avatar=jZUIxmJycoymBprLOUbT.png), TbUser(userId=12, username=jack, password=552649f10640385d0728a80a4242893e, deptId=6, email=jack@hotmail.com, mobile=null, status=1, createTime=Wed Jan 23 15:34:05 CST 2019, modifyTime=Thu Jan 24 11:08:01 CST 2019, lastLoginTime=Thu Jan 24 16:52:03 CST 2019, ssex=0, description=null, avatar=default.jpg), TbUser(userId=13, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=Sat Mar 09 16:59:28 CST 2019, modifyTime=Sat Mar 09 16:59:28 CST 2019, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=14, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=Sat Mar 09 17:03:48 CST 2019, modifyTime=Sat Mar 09 17:03:48 CST 2019, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=15, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=Sat Mar 09 17:04:48 CST 2019, modifyTime=Sat Mar 09 17:04:48 CST 2019, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=16, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=Sat Mar 09 17:07:17 CST 2019, modifyTime=Sat Mar 09 17:07:17 CST 2019, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=17, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=Sat Mar 09 17:07:39 CST 2019, modifyTime=Sat Mar 09 17:07:39 CST 2019, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=20, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=Sat Mar 09 17:09:33 CST 2019, modifyTime=Sat Mar 09 17:09:33 CST 2019, lastLoginTime=null, ssex=null, description=null, avatar=null)]
+2019-03-25 20:04:31.618 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:04:31.620 febs [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Shutdown initiated...
+2019-03-25 20:04:31.624 febs [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Shutdown completed.
+2019-03-25 20:05:55.860 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:05:55.860 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:05:55.872 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:05:55.872 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:05:58.592 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:05:58.592 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:05:58.604 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:05:58.605 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:06:00.530 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 15748 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:06:00.531 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 20:06:03.473 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:06:03.869 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 20:06:03.976 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 20:06:03.977 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 20:06:03.978 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 20:06:03.978 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 20:06:04.369 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.698 seconds (JVM running for 6.209)
+2019-03-25 20:06:04.665 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:06:57.012 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:06:57.013 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:06:57.030 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:06:57.030 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:06:59.841 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:06:59.841 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:06:59.854 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:06:59.855 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:07:02.041 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 28060 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:07:02.043 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 20:07:05.385 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:07:05.891 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 20:07:06.114 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 20:07:06.118 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 20:07:06.119 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 20:07:06.120 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 20:07:06.798 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 5.464 seconds (JVM running for 7.664)
+2019-03-25 20:07:07.213 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:08:05.426 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:08:05.426 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:08:05.435 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:08:05.436 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:08:07.252 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:08:07.253 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:08:07.261 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:08:07.262 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:08:10.032 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 24244 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:08:10.034 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 20:08:13.484 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:08:14.256 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 20:08:14.404 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 20:08:14.405 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 20:08:14.406 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 20:08:14.407 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 20:08:14.886 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 5.979 seconds (JVM running for 7.601)
+2019-03-25 20:08:15.252 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:08:36.500 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:08:36.501 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:08:36.511 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:08:36.511 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:08:38.221 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 20:08:38.222 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 20:08:38.235 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 18264 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:08:38.235 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 20:08:42.370 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 25312 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 20:08:42.372 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 20:08:45.213 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 20:08:45.726 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 20:08:45.821 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 20:08:45.822 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 20:08:45.823 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 20:08:45.826 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 20:08:46.226 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.534 seconds (JVM running for 6.44)
+2019-03-25 20:08:46.539 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:21:05.490 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 9284 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:21:05.493 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:21:08.332 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:21:08.848 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:21:09.031 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:21:09.032 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:21:09.034 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:21:09.034 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:21:09.570 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.972 seconds (JVM running for 6.661)
+2019-03-25 21:21:09.974 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:23:16.134 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 8936 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:23:16.135 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:23:19.414 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:23:19.870 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:23:19.987 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:23:19.991 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:23:19.993 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:23:19.994 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:23:20.430 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 5.083 seconds (JVM running for 6.861)
+2019-03-25 21:23:20.788 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:25:38.141 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 26776 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:25:38.143 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:25:40.868 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:25:41.255 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:25:41.370 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:25:41.371 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:25:41.372 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:25:41.373 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:25:41.746 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.479 seconds (JVM running for 6.115)
+2019-03-25 21:25:42.062 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:29:21.684 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 16648 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:29:21.686 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:29:24.421 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:29:24.807 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:29:24.919 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:29:24.920 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:29:24.921 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:29:24.922 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:29:25.333 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.531 seconds (JVM running for 6.304)
+2019-03-25 21:29:25.677 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:29:42.794 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 8636 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:29:42.797 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 21:29:42.852 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 21:29:42.853 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-25 21:29:45.044 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 21:29:45.064 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:29:45.095 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 21:29:45.095 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 21:29:45.121 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-25 21:29:45.349 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 21:29:45.349 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2496 ms
+2019-03-25 21:29:45.401 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 21:29:45.407 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 21:29:45.407 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 21:29:45.407 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 21:29:45.407 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 21:29:46.065 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:29:46.221 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:29:46.234 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:29:46.235 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:29:46.236 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:29:46.236 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:29:46.439 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 21:29:46.478 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:29:46.494 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 21:29:46.517 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 21:29:46.521 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 4.34 seconds (JVM running for 5.789)
+2019-03-25 21:30:03.514 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 5108 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:30:03.516 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:30:06.220 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:30:06.609 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:30:06.737 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:30:06.739 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:30:06.741 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:30:06.741 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:30:07.165 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.357 seconds (JVM running for 5.882)
+2019-03-25 21:30:07.481 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:30:52.094 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 23960 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:30:52.096 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:30:55.174 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:30:55.559 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:30:55.680 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:30:55.682 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:30:55.682 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:30:55.683 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:30:56.087 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.783 seconds (JVM running for 6.412)
+2019-03-25 21:30:56.426 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:32:11.210 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 3660 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:32:11.212 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:32:14.685 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:32:15.180 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:32:15.319 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:32:15.320 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:32:15.323 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:32:15.324 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:32:15.779 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 5.316 seconds (JVM running for 6.88)
+2019-03-25 21:32:16.086 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:34:26.048 febs [Thread-15] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:34:26.783 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 8636 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:34:26.783 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 21:34:27.813 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 21:34:27.814 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:34:27.814 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 21:34:27.814 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 21:34:27.855 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 21:34:27.856 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1066 ms
+2019-03-25 21:34:27.875 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 21:34:27.876 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 21:34:27.876 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 21:34:27.876 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 21:34:27.876 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 21:34:28.141 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 16564 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:34:28.143 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:34:28.155 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:34:28.244 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:34:28.255 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:34:28.255 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:34:28.255 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:34:28.255 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:34:28.391 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 21:34:28.458 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:34:28.460 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 21:34:28.466 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 21:34:28.468 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 1.796 seconds (JVM running for 287.735)
+2019-03-25 21:34:28.474 febs [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-03-25 21:34:31.035 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:34:31.413 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:34:31.518 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:34:31.519 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:34:31.521 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:34:31.521 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:34:31.955 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.821 seconds (JVM running for 6.703)
+2019-03-25 21:34:32.272 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:37:01.908 febs [Thread-23] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:37:02.478 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 8636 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:37:02.479 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 21:37:03.186 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 21:37:03.188 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:37:03.188 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 21:37:03.188 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 21:37:03.235 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 21:37:03.235 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 751 ms
+2019-03-25 21:37:03.250 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 21:37:03.250 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 21:37:03.251 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 21:37:03.251 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 21:37:03.251 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 21:37:03.467 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:37:03.525 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:37:03.530 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:37:03.531 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:37:03.531 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:37:03.531 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:37:03.546 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 25084 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:37:03.548 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:37:03.605 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 21:37:03.640 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:37:03.641 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 21:37:03.648 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 21:37:03.653 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 1.238 seconds (JVM running for 442.92)
+2019-03-25 21:37:03.656 febs [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-03-25 21:37:06.337 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:37:06.764 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:37:06.877 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:37:06.879 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:37:06.880 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:37:06.881 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:37:07.308 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.565 seconds (JVM running for 6.197)
+2019-03-25 21:37:07.703 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:38:33.661 febs [Thread-29] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:38:34.298 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 8636 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:38:34.299 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 21:38:34.965 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 21:38:34.966 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:38:34.967 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 21:38:34.967 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 21:38:35.009 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 21:38:35.010 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 704 ms
+2019-03-25 21:38:35.028 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 21:38:35.029 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 21:38:35.030 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 21:38:35.030 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 21:38:35.030 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 21:38:35.509 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:38:35.611 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:38:35.631 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:38:35.635 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:38:35.636 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:38:35.636 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:38:35.765 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 21:38:35.796 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:38:35.797 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 21:38:35.803 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 21:38:35.804 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 1.634 seconds (JVM running for 535.072)
+2019-03-25 21:38:35.806 febs [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-03-25 21:38:36.015 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 7352 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:38:36.017 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:38:39.074 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:38:39.524 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:38:39.660 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:38:39.662 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:38:39.664 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:38:39.664 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:38:40.125 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 5.005 seconds (JVM running for 6.798)
+2019-03-25 21:38:40.492 febs [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Starting...
+2019-03-25 21:38:40.838 febs [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Start completed.
+2019-03-25 21:38:41.074 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:38:41.078 febs [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Shutdown initiated...
+2019-03-25 21:38:41.088 febs [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Shutdown completed.
+2019-03-25 21:39:33.597 febs [Thread-35] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:39:34.262 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 8636 (D:\workspace\ide_workspace\project_manager\ztproject\target\classes started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:39:34.262 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-25 21:39:35.013 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-25 21:39:35.014 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:39:35.014 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 21:39:35.014 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-25 21:39:35.047 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 21:39:35.047 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 779 ms
+2019-03-25 21:39:35.061 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 21:39:35.061 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 21:39:35.061 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 21:39:35.061 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-25 21:39:35.062 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 21:39:35.248 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:39:35.310 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:39:35.315 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:39:35.315 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:39:35.315 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:39:35.315 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:39:35.395 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-25 21:39:35.445 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-25 21:39:35.448 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 21:39:35.466 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-25 21:39:35.468 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 1.301 seconds (JVM running for 594.735)
+2019-03-25 21:39:35.472 febs [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-03-25 21:39:36.062 febs [main] INFO  c.s.ztproject.test.MyTestOne - Starting MyTestOne on LAPTOP-GN3LAP7B with PID 24916 (started by admin in D:\workspace\ide_workspace\project_manager\ztproject)
+2019-03-25 21:39:36.063 febs [main] INFO  c.s.ztproject.test.MyTestOne - No active profile set, falling back to default profiles: default
+2019-03-25 21:39:39.097 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:39:39.494 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-25 21:39:39.597 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-25 21:39:39.598 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-25 21:39:39.599 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-25 21:39:39.600 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-25 21:39:39.973 febs [main] INFO  c.s.ztproject.test.MyTestOne - Started MyTestOne in 4.685 seconds (JVM running for 6.518)
+2019-03-25 21:39:40.287 febs [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Starting...
+2019-03-25 21:39:40.608 febs [main] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Start completed.
+2019-03-25 21:39:40.652 febs [main] INFO  c.s.z.c.i.SqlStatementInterceptor - 【SQL语句id】>>>> com.springboot.ztproject.dao.TbUserMapper.selectAll1
+2019-03-25 21:39:40.652 febs [main] INFO  c.s.z.c.i.SqlStatementInterceptor - 【SQL语句耗时】>>>> 377 ms
+2019-03-25 21:39:40.653 febs [main] INFO  c.s.z.c.i.SqlStatementInterceptor - 【SQL语句】>>>> select * from t_user
+2019-03-25 21:39:40.656 febs [main] INFO  c.s.ztproject.test.MyTestOne - -----------------[TbUser(userId=null, username=mrbird, password=94f860c4bbfeb2f49c84e321fdda4b07, deptId=null, email=mrbird123@hotmail.com, mobile=13455533233, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=2, description=我是帅比作者。, avatar=ubnKSIfAJTxIgXOKlciN.png), TbUser(userId=null, username=scott, password=7b44a5363e3fd52435beb472e1d2b91f, deptId=null, email=scott@qq.com, mobile=15134627380, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=0, description=我是scott，嗯嗯, avatar=jZUIxmJycoymBprLOUbT.png), TbUser(userId=null, username=jack, password=552649f10640385d0728a80a4242893e, deptId=null, email=jack@hotmail.com, mobile=null, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=0, description=null, avatar=default.jpg), TbUser(userId=null, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=null, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=null, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=null, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=null, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=null, description=null, avatar=null), TbUser(userId=null, username=admin, password=123456, deptId=null, email=null, mobile=null, status=1, createTime=null, modifyTime=null, lastLoginTime=null, ssex=null, description=null, avatar=null)]
+2019-03-25 21:39:40.668 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 21:39:40.670 febs [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Shutdown initiated...
+2019-03-25 21:39:40.674 febs [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - FebsHikariCP - Shutdown completed.
