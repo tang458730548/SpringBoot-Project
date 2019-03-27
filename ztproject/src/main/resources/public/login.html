@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>登录</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="../css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="../css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+    <script>
+        if (window.top !== window.self) {
+            window.top.location = window.location;
+        }
+    </script>
+
+</head>
+
+<body class="signin">
+    <div class="signinpanel">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="sanjiaoxing">
+                </div>
+                <form method="post" action="" id="frm">
+                    <h4 class="no-margins">登录页面</h4>
+                    <p class="m-t-md">欢迎您</p>
+					<div>
+						<input type="text" class="form-control uname" name="username" id="username" placeholder="用户名" /><span></span>
+					</div>
+					<div>
+						<input type="password" class="form-control pword m-b" name="password" id="password"  placeholder="密码" />
+					</div>
+					<div class="codediv">
+						<input type="text" class="form-control code" name="code" id="code"  placeholder="验证码"/>
+					</div>
+					<div class="codeimgdiv">
+						<img class="imgcode" id = "imgcode" src="login/captcha" />
+					</div>
+                    <button class="btn btn-success btn-block">登录</button>
+                </form>
+            </div>
+        </div>
+        <div class="signup-footer">
+            <div class="pull-left">
+                &copy; tangshicheng
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/jquery.min.js?v=2.1.4"></script>
+    <script src="../js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/plugins/layer/layer.min.js"></script>
+    <!-- jQuery Validation plugin javascript-->
+    <script src="../js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="../js/plugins/validate/messages_zh.min.js"></script>
+    <!-- 自定义js -->
+    <script src="../js/content.js?v=1.0.0"></script>
+
+	<script type="text/javascript">
+
+    /*定时器轮播背景图*/
+    $(function(){
+        var i = 0;
+        setInterval(function () {
+           var mainArr = new Array();
+            mainArr[0] = 'main';
+            mainArr[1] = 'main1';
+            mainArr[2] = 'main2';
+            mainArr[3] = 'main3';
+            mainArr[4] = 'main4';
+           var mainUrl = "url(../img/"+mainArr[i]+".jpg"+") no-repeat center fixed";
+            $("body.signin").show("speed",function(){
+                $("body.signin").css("background",mainUrl);
+            });
+            i++;
+           if(i > 4 ){
+               i = 0;
+           }
+        },5000)
+    })
+
+    $().ready(function() {
+    	// 在键盘按下并释放及提交后验证提交表单
+    	  $("#frm").validate({
+    	    rules: {
+    	      username: {
+    	        required: true,
+    	        minlength: 6
+    	      },
+    	      password: {
+    	        required: true,
+    	        minlength: 6
+    	      },
+			  code: {
+				  required:true,
+				  minlength: 4 ,
+				  maxlength: 4
+			  }
+			  
+    	    },
+    	    messages: {
+    	      username: {
+    	        required: "请输入用户名",
+    	        minlength: "用户名长度不小于6"
+    	      },
+    	      password: {
+    	        required: "请输入密码",
+    	        minlength: "密码长度不能小于 6 个字母"
+    	      },
+			  code:{
+				  required: "请输入验证码",
+				  minlength: "长度为4位",
+				  maxlength: "长度为4位"
+			  }
+    	    },
+    	    submitHandler:function(form){
+                form.submit();
+            } 
+    	});
+    });
+
+    /* 切换验证码 */
+    $(function(){
+        $("#imgcode").on('click',function(){
+            $("#imgcode").attr('src','login/captcha?id='+new Date().getTime());
+            layer.msg("切换验证码成功");
+        })
+    })
+    </script>
+</body>
+
+</html>

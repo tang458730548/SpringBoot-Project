@@ -1,8 +1,8 @@
 html{height: 100%;}
 body.signin {
-    background: #18c8f6;
+    /*background: #FFFFFF;*/
     height: auto;
-    /* background:url("../img/login-background.jpg") no-repeat center fixed; */
+     background:url("../img/main.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,4 +105,12 @@ body.signin {
         margin:0 20px;
         width:auto;
     }
+}
+.sanjiaoxing {
+    width:0;
+    height:0;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-bottom:20px solid rgba(255,255,255,.3);
+    margin: 0 auto;
 }
