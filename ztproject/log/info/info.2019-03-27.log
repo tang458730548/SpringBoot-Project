@@ -3833,3 +3833,289 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-03-27 22:04:14.031 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 27 ms
 2019-03-27 22:04:14.081 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
 2019-03-27 22:04:14.142 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:22.477 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 11756 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:37:22.484 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:37:24.179 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:37:24.179 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:37:27.185 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$40c47e7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:37:27.231 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7132ebf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:37:28.218 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:37:28.227 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:37:28.230 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:37:28.231 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:37:28.420 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:37:28.422 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:37:29.381 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:37:29.415 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:37:29.466 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:37:29.466 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:37:29.491 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:37:30.176 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:37:30.177 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5997 ms
+2019-03-27 22:37:30.370 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:37:30.420 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:37:30.422 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:37:30.422 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:37:30.423 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:37:30.423 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:37:31.967 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:37:32.807 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+2019-03-27 22:37:32.820 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:37:32.821 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:37:32.822 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:37:32.822 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:37:33.285 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:37:33.330 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:37:33.347 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:37:33.370 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:37:33.374 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 12.237 seconds (JVM running for 14.338)
+2019-03-27 22:37:33.377 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:37:44.245 febs [http-nio-9888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-27 22:37:44.245 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-27 22:37:44.285 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 39 ms
+2019-03-27 22:37:44.565 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.576 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.607 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.639 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.684 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.688 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.689 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.693 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.697 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.698 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.699 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.705 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.708 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.710 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.711 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.715 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.721 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.723 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.724 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.728 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.731 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.732 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.733 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.734 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.734 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.737 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.741 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.741 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.761 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.763 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:44.765 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:44.768 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.957 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.959 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.961 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.965 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.969 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.971 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.972 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.975 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.978 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.980 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.981 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.985 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.990 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.992 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:48.993 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:48.997 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.573 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.575 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.576 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.583 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.636 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.637 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.637 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.636 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.636 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.640 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.641 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.641 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.643 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.644 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.644 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.644 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.644 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.645 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.646 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.646 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.651 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.653 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.662 febs [http-nio-9888-exec-5] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.665 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.666 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.670 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.671 febs [http-nio-9888-exec-3] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.672 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.706 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.709 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:37:53.710 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:37:53.719 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.656 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.657 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.659 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.667 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.703 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.703 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.703 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.705 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.705 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.705 febs [http-nio-9888-exec-7] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.707 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.711 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.712 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.712 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.713 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.713 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.713 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.714 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.716 febs [http-nio-9888-exec-7] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.716 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.717 febs [http-nio-9888-exec-7] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.718 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.721 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.724 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.732 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.732 febs [http-nio-9888-exec-7] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.734 febs [http-nio-9888-exec-10] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.734 febs [http-nio-9888-exec-6] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.752 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.754 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:38:03.755 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:38:03.762 febs [http-nio-9888-exec-2] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:39:03.748 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 17760 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:39:03.752 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:39:04.046 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:39:04.047 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:39:06.649 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$d24e1b84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:39:06.665 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$789ccbc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:39:07.124 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:39:07.132 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:39:07.135 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:39:07.135 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:39:07.263 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:39:07.265 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:39:07.717 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:39:07.734 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:39:07.745 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:39:07.745 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:39:07.754 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:39:07.934 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:39:07.934 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3887 ms
+2019-03-27 22:39:07.993 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:39:08.000 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:39:08.000 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:39:08.000 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:39:08.000 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:39:08.001 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:39:08.724 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:39:09.181 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+2019-03-27 22:39:09.195 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:39:09.195 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:39:09.196 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:39:09.196 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:39:09.539 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:39:09.591 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:39:09.603 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:39:09.625 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:39:09.629 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 6.642 seconds (JVM running for 8.342)
+2019-03-27 22:39:09.633 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:39:32.878 febs [http-nio-9888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-27 22:39:32.879 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-27 22:39:32.894 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-03-27 22:39:32.939 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:39:32.941 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:39:32.947 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:39:32.970 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:39:33.271 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:39:33.275 febs [http-nio-9888-exec-8] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:40:01.872 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 33252 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:40:01.877 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:40:02.189 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:40:02.190 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:40:03.560 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$1adf91cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:40:03.576 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c12e420d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:40:04.051 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:40:04.061 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:40:04.063 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:40:04.064 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:40:04.184 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:40:04.186 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:40:04.639 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:40:04.657 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:40:04.668 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:40:04.668 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:40:04.677 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:40:04.859 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:40:04.859 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2669 ms
+2019-03-27 22:40:04.921 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:40:04.928 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:40:04.929 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:40:04.929 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:40:04.929 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:40:04.929 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:40:05.621 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:40:06.108 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+2019-03-27 22:40:06.121 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:40:06.122 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:40:06.123 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:40:06.123 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:40:06.463 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:40:06.502 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:40:06.515 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:40:06.536 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:40:06.541 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 5.539 seconds (JVM running for 7.234)
+2019-03-27 22:40:06.544 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:40:22.254 febs [http-nio-9888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-27 22:40:22.254 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-27 22:40:22.270 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-03-27 22:40:22.351 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:40:22.380 febs [http-nio-9888-exec-4] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:40:22.466 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:40:22.479 febs [http-nio-9888-exec-9] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:40:22.797 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:40:22.803 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:41:13.162 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 19992 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:41:13.166 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:41:13.461 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:41:13.462 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:41:15.186 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ce7ce859] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:41:15.200 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$74cb989b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:41:15.675 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:41:15.684 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:41:15.687 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:41:15.688 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:41:15.809 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:41:15.811 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:41:16.271 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:41:16.294 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:41:16.307 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:41:16.307 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:41:16.317 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:41:16.508 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:41:16.510 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3048 ms
+2019-03-27 22:41:16.570 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:41:16.577 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:41:16.577 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:41:16.577 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:41:16.577 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:41:16.577 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:41:17.263 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:41:17.734 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+2019-03-27 22:41:17.749 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:41:17.749 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:41:17.750 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:41:17.750 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:41:18.090 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:41:18.131 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:41:18.144 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:41:18.166 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:41:18.171 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 5.798 seconds (JVM running for 7.725)
+2019-03-27 22:41:18.174 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:41:48.640 febs [http-nio-9888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-27 22:41:48.641 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-27 22:41:48.660 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2019-03-27 22:41:48.719 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
+2019-03-27 22:41:48.726 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
