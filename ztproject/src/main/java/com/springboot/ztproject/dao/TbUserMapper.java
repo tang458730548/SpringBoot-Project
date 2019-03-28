@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface TbUserMapper extends MyMapper<TbUser>{
 
-    List<TbUser> selectAll1();
+    TbUser findByUserName (String username);
 }

@@ -3,10 +3,12 @@
 <mapper namespace="com.springboot.ztproject.dao.TbUserMapper">
 
     <sql id="tb_name">
-        t_user
+        t_user u
     </sql>
-    <select id="selectAll1" resultType="tbUser">
-        select * from
-        <include refid="tb_name"/>
+    <select id="findByUserName" resultType="tbUser" parameterType="String">
+        select * from <include refid="tb_name"/>
+        <where>
+            u.USERNAME = #{username}
+        </where>
     </select>
 </mapper>

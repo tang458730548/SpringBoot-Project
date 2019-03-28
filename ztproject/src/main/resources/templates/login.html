@@ -77,17 +77,16 @@
             mainArr[0] = 'main';
             mainArr[1] = 'main1';
             mainArr[2] = 'main2';
-            mainArr[3] = 'main3';
-            mainArr[4] = 'main4';
+
            var mainUrl = "url(../img/"+mainArr[i]+".jpg"+") no-repeat center fixed";
             $("body.signin").show("speed",function(){
                 $("body.signin").css("background",mainUrl);
             });
             i++;
-           if(i > 4 ){
+           if(i > 2 ){
                i = 0;
            }
-        },5000)
+        },8000)
     })
 
     $().ready(function() {
@@ -125,8 +124,44 @@
 			  }
     	    },
     	    submitHandler:function(form){
-                form.submit();
-            } 
+                $.ajax({
+                    type: 'post',
+                    url: '/login/login',
+                    data: {
+                        username: $("#username").val(),
+                        password: $("#password").val(),
+                        code: $("#code").val()
+                    },
+                    success: function (data) {
+                        if(data.code == 200){
+                            layer.msg('<em style="color:#1cc09f">' + "登录中..." + '</em>', {
+                                icon: 16
+                                ,shade: 0.01
+                                ,offset: "auto"
+                            });
+                            setTimeout(function () {
+                                location.href = "/admin/index";
+                            },1500)
+                        }else if(data.code == 404){
+                            layer.msg('<em style="color: red">'+data.message+'</em>', {icon: 5});
+                        }
+                        else if(data.code == 500){
+                            layer.msg('<em style="color: red">'+data.message+'</em>', {icon: 5});
+                        }else if(data.code == 501){
+                            layer.msg('<em style="color: red">'+data.message+'</em>', {icon: 5});
+                        }else if(data.code == 401){
+                            layer.msg('<em style="color: red">'+data.message+'</em>', {icon: 5});
+                        }
+                    },
+
+                    error: function (data) {
+
+                    }
+                });
+
+                //阻止表单提交
+                return false ;
+            }
     	});
     });
 

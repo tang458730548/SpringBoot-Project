@@ -1,8 +1,19 @@
 package com.springboot.ztproject.controller;
 
+import com.alibaba.fastjson.JSONObject;
+import com.springboot.ztproject.pojo.TbUser;
 import com.springboot.ztproject.util.CaptchaUtil;
+import com.springboot.ztproject.util.HttpResultUtil;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletResponse;
@@ -18,7 +29,49 @@ import java.io.OutputStream;
  */
 @Controller
 @RequestMapping("/login")
+@Slf4j
 public class LoginController {
+
+    /**
+     * admin登录
+     * @return
+     */
+    @PostMapping("/login")
+    @ResponseBody
+    public HttpResultUtil login(String username, String password, String code , HttpSession session){
+        HttpResultUtil httpResult = new HttpResultUtil ();
+        if(StringUtils.isBlank (code) || null == code){
+            httpResult.setCode (401);
+            httpResult.setMessage ("验证码为空");
+            return httpResult ;
+        }
+        if(session.getAttribute ("code") != null && code.equalsIgnoreCase ((String) session.getAttribute ("code"))){
+            if (StringUtils.isBlank (username) || StringUtils.isBlank (password)) {
+                httpResult.setCode (404);
+                httpResult.setMessage ("没有此用户名");
+                return httpResult;
+            }
+            Subject subject = SecurityUtils.getSubject ();
+            try {
+                subject.login (new UsernamePasswordToken (username, password));
+            } catch (AuthenticationException ae) {
+                log.error ("------------------------------- 登录失败 ------------------------------");
+                httpResult.setCode (500);
+                httpResult.setMessage ("用户名或者密码错误");
+                return httpResult;
+            }
+            httpResult.setCode (200);
+            httpResult.setMessage ("登录成功");
+            TbUser tbUser = (TbUser) subject.getPrincipal ();
+            httpResult.setData (JSONObject.toJSON (tbUser));
+            log.info ("----------------------------------- 登录成功 -----------------------------");
+            return httpResult;
+        }else{
+            httpResult.setCode (501);
+            httpResult.setMessage ("验证码不正确");
+            return httpResult ;
+        }
+    }
 
     @RequestMapping("/captcha")
     public void getCaptcha(HttpServletResponse response , HttpSession session){

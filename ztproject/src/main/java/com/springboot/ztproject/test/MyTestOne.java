@@ -20,8 +20,6 @@ public class MyTestOne {
     private TbUserMapper tbUserMapper;
     @Test
     public void test(){
-        List<TbUser> tbUsers = tbUserMapper.selectAll1 ();
-        log.info ("-----------------"+tbUsers);
     }
 
 }

@@ -1,14 +1,20 @@
 package com.springboot.ztproject.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
+/**
+ * 主页面控制器
+ */
+@Controller("IndexController")
 public class IndexController {
 
-    @GetMapping(value="/index")
-    public String index(){
-
-        return "index";
+    /**
+     * 主页面控制器
+     * @return
+     */
+    @RequestMapping(value = {"/index","/"})
+    public String IndexPage(){
+     return "login";
     }
 }

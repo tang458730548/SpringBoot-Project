@@ -4119,3 +4119,262 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-03-27 22:41:48.660 febs [http-nio-9888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 19 ms
 2019-03-27 22:41:48.719 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 进行了拦截 -------------
 2019-03-27 22:41:48.726 febs [http-nio-9888-exec-1] INFO  c.s.z.common.inteceptor.MyInteceptor - ------------- 放行后做点啥 -------------
+2019-03-27 22:44:13.030 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 31440 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:44:13.035 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:44:13.330 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:44:13.330 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:44:14.829 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$3ab772b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:44:14.845 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e10622f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:44:15.406 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:44:15.416 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:44:15.420 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:44:15.421 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:44:15.554 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:44:15.556 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:44:16.048 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:44:16.068 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:44:16.080 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:44:16.080 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:44:16.089 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:44:16.289 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:44:16.289 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2959 ms
+2019-03-27 22:44:16.357 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:44:16.364 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:44:16.365 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:44:16.365 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:44:16.365 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:44:16.365 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:44:17.091 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:44:17.598 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:44:17.611 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:44:17.612 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:44:17.612 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:44:17.613 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:44:17.949 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:44:17.987 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:44:18.000 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:44:18.020 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:44:18.025 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 5.766 seconds (JVM running for 7.567)
+2019-03-27 22:44:18.029 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:45:07.543 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 10952 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:45:07.548 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:45:07.844 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:45:07.844 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:45:09.358 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$4d8d43f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:45:09.374 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3dbf43b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:45:09.880 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:45:09.891 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:45:09.895 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:45:09.896 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:45:10.019 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:45:10.021 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:45:10.499 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:45:10.516 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:45:10.529 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:45:10.529 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:45:10.538 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:45:10.742 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:45:10.742 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2898 ms
+2019-03-27 22:45:10.803 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:45:10.811 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:45:10.811 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:45:10.811 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:45:10.811 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:45:10.811 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:45:11.511 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:45:11.975 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:45:11.988 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:45:11.988 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:45:11.989 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:45:11.989 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:45:12.346 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:45:12.393 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:45:12.409 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:45:12.434 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:45:12.438 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 5.71 seconds (JVM running for 7.46)
+2019-03-27 22:45:12.442 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:46:03.014 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 2960 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:46:03.019 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:46:03.314 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:46:03.314 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:46:04.713 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$ad036c05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:04.727 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53521c47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:05.202 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:05.214 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:05.220 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:46:05.220 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:46:05.357 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:46:05.359 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:46:05.782 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:46:05.800 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:46:05.810 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:46:05.811 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:46:05.820 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:46:06.025 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:46:06.025 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2710 ms
+2019-03-27 22:46:06.086 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:46:06.094 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:46:06.095 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:46:06.095 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:46:06.095 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:46:06.095 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:46:06.774 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:46:07.234 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:46:07.247 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:46:07.248 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:46:07.249 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:46:07.249 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:46:07.617 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:46:07.656 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:46:07.669 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:46:07.690 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:46:07.694 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 5.466 seconds (JVM running for 7.134)
+2019-03-27 22:46:07.697 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:46:16.655 febs [Thread-18] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:46:38.155 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 24132 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:46:38.160 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:46:38.433 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-27 22:46:38.433 febs [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-27 22:46:39.827 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$5c2b9c41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:39.843 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27a4c83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:40.297 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:40.306 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:46:40.310 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:46:40.311 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:46:40.430 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:46:40.432 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:46:40.865 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:46:40.883 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:46:40.893 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:46:40.893 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:46:40.902 febs [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\study_software\jdk\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\study_software\xftp\;D:\software\study_software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software\study_software\jdk\jdk\bin;D:\software\study_software\maven\apache-maven-3.6.0\bin;D:\software\study_software\node\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\software\study_software\svn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;.]
+2019-03-27 22:46:41.100 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:46:41.101 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2668 ms
+2019-03-27 22:46:41.166 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:46:41.173 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:46:41.173 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:46:41.173 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:46:41.173 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:46:41.173 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:46:41.884 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:46:42.338 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:46:42.351 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:46:42.352 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:46:42.353 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:46:42.353 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:46:42.716 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:46:42.756 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:46:42.769 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:46:42.790 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:46:42.795 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 5.349 seconds (JVM running for 7.034)
+2019-03-27 22:46:42.798 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:47:17.028 febs [Thread-18] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:47:17.766 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 24132 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:47:17.767 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:47:18.351 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$5c2b9c41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:18.354 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27a4c83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:18.360 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:18.362 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:18.363 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:47:18.364 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:47:18.385 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:47:18.387 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:47:18.534 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:47:18.536 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:47:18.537 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:47:18.537 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:47:18.612 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:47:18.613 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 843 ms
+2019-03-27 22:47:18.646 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:47:18.646 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:47:18.647 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:47:18.647 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:47:18.647 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:47:18.647 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:47:18.951 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:47:19.055 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:47:19.062 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:47:19.062 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:47:19.062 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:47:19.062 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:47:19.340 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:47:19.372 febs [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9888"]
+2019-03-27 22:47:19.374 febs [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-27 22:47:19.379 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:47:19.381 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 1.676 seconds (JVM running for 43.62)
+2019-03-27 22:47:19.385 febs [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-03-27 22:47:19.385 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:47:21.928 febs [Thread-26] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:47:34.631 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 24132 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:47:34.631 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:47:35.217 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:47:35.220 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:47:35.220 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:47:35.276 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:47:35.276 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 643 ms
+2019-03-27 22:47:35.293 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:47:35.294 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:47:35.294 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:47:35.294 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:47:35.295 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:47:35.397 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:47:35.453 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:47:35.484 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:47:35.485 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:47:35.485 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:47:35.485 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:47:35.518 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:47:35.519 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2019-03-27 22:47:35.525 febs [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-27 22:47:42.616 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Starting ZtprojectApplication on LAPTOP-GN3LAP7B with PID 24132 (E:\SpringBoot-Project\ztproject\target\classes started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:47:42.616 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - No active profile set, falling back to default profiles: default
+2019-03-27 22:47:43.122 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$5c2b9c41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:43.126 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27a4c83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:43.135 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:43.139 febs [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:43.143 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器开始---------------
+2019-03-27 22:47:43.143 febs [restartedMain] INFO  c.s.z.common.config.ShiroConfig - --------------配置shiro过滤器结束---------------
+2019-03-27 22:47:43.176 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize开始 ------------
+2019-03-27 22:47:43.177 febs [restartedMain] INFO  c.s.z.common.config.GlobalPageConfig - ----------- 配置customize结束 ------------
+2019-03-27 22:47:43.336 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9888 (http)
+2019-03-27 22:47:43.342 febs [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-27 22:47:43.343 febs [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-27 22:47:43.407 febs [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-27 22:47:43.407 febs [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 789 ms
+2019-03-27 22:47:43.420 febs [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-27 22:47:43.421 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-27 22:47:43.421 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-27 22:47:43.421 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-27 22:47:43.421 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-27 22:47:43.421 febs [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'shirFilter' to: [/*]
+2019-03-27 22:47:43.634 febs [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:47:43.691 febs [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:47:43.696 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:47:43.696 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:47:43.696 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:47:43.696 febs [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:47:44.074 febs [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-03-27 22:47:44.110 febs [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9888 (http) with context path ''
+2019-03-27 22:47:44.111 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - Started ZtprojectApplication in 1.561 seconds (JVM running for 68.35)
+2019-03-27 22:47:44.113 febs [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-03-27 22:47:44.113 febs [restartedMain] INFO  c.s.ztproject.ZtprojectApplication - -------------SpringBoot start successfully------------
+2019-03-27 22:47:51.153 febs [main] INFO  c.s.z.ZtprojectApplicationTests - Starting ZtprojectApplicationTests on LAPTOP-GN3LAP7B with PID 30284 (started by admin in E:\SpringBoot-Project\ztproject)
+2019-03-27 22:47:51.155 febs [main] INFO  c.s.z.ZtprojectApplicationTests - No active profile set, falling back to default profiles: default
+2019-03-27 22:47:55.059 febs [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.springboot.ztproject.common.config.ShiroConfig$$EnhancerBySpringCGLIB$$f0adeb9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:55.071 febs [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5598efb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:55.992 febs [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [com.springboot.ztproject.common.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:56.043 febs [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-27 22:47:56.055 febs [main] INFO  c.s.z.common.config.ShiroConfig - --------------����shiro��������ʼ---------------
+2019-03-27 22:47:56.062 febs [main] INFO  c.s.z.common.config.ShiroConfig - --------------����shiro����������---------------
+2019-03-27 22:47:57.383 febs [main] INFO  c.s.z.common.config.GlobalPageConfig - ----------- ����customize��ʼ ------------
+2019-03-27 22:47:57.386 febs [main] INFO  c.s.z.common.config.GlobalPageConfig - ----------- ����customize���� ------------
+2019-03-27 22:47:58.128 febs [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-27 22:47:59.391 febs [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-03-27 22:47:59.523 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-27 22:47:59.524 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-27 22:47:59.526 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-27 22:47:59.526 febs [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-03-27 22:48:00.254 febs [main] INFO  c.s.z.ZtprojectApplicationTests - Started ZtprojectApplicationTests in 9.929 seconds (JVM running for 12.198)
+2019-03-27 22:48:01.441 febs [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
