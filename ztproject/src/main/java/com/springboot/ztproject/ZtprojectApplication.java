@@ -11,10 +11,8 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan("com.springboot.ztproject.dao")
 @Slf4j
 public class ZtprojectApplication {
-
     public static void main (String[] args) {
         SpringApplication.run (ZtprojectApplication.class, args);
         log.info ("-------------SpringBoot start successfully------------");
     }
-
 }

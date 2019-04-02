@@ -6,18 +6,27 @@
     <title>Title</title>
 </head>
     <div th:fragment="commonJs">
-        <!-- 自定义js -->
-        <script src="../js/content.js"></script>
         <!-- 公共js-->
-        <script src="../js/jquery.min.js?v=2.1.4"></script>
-        <script src="../js/bootstrap.min.js?v=3.3.6"></script>
-        <script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
-        <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-        <script src="../js/plugins/layer/layer.min.js"></script>
+        <script th:src="@{/js/jquery.min.js?v=2.1.4}"></script>
+        <script th:src="@{/js/bootstrap.min.js?v=3.3.6}"></script>
+        <script th:src="@{/js/plugins/metisMenu/jquery.metisMenu.js}"></script>
+        <script th:src="@{/js/plugins/slimscroll/jquery.slimscroll.min.js}"></script>
+        <script th:src="@{/js/plugins/layer/layer.min.js}"></script>
         <!-- jQuery Validation plugin javascript-->
-        <script src="../js/plugins/validate/jquery.validate.min.js"></script>
-        <script src="../js/plugins/validate/messages_zh.min.js"></script>
+        <script th:src="@{/js/plugins/validate/jquery.validate.min.js}"></script>
+        <script th:src="@{/js/plugins/validate/messages_zh.min.js}"></script>
+        <!-- Bootstrap table -->
+        <script th:src="@{/js/plugins/bootstrap-table/bootstrap-table.min.js}"></script>
+        <script th:src="@{/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js}"></script>
+        <script th:src="@{/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js}"></script>
+
+        <!-- Peity -->
+        <script th:src="@{/js/plugins/peity/jquery.peity.min.js}"></script>
+        <script th:src="@{/js/plugins/layer/layer.min.js}"></script>
+        <!-- 自定义js -->
+        <script th:src="@{/js/content.js}"></script>
     </div>
+
 <body>
 </body>
 </html>
