@@ -1,5 +1,9 @@
 package com.springboot.ztproject.service;
 
+import com.springboot.ztproject.pojo.TbUser;
+import com.springboot.ztproject.util.HttpResultUtil;
+import com.springboot.ztproject.vo.PageBean;
+
 /**
  * 基础公共服务层
  * @param <T>
@@ -17,4 +21,8 @@ public interface BaseService<T> {
     int updateByPrimaryKeySelective (T t);
 
     int updateByPrimaryKey (T t);
+
+    PageBean<T> findByPage (PageBean<T> page);
+
+    Integer getTotalCount(T t);
 }

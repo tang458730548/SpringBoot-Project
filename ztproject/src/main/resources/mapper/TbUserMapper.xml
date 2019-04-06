@@ -2,6 +2,22 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.springboot.ztproject.dao.TbUserMapper">
 
+    <resultMap id="BaseResultMap" type="com.springboot.ztproject.pojo.TbUser">
+        <id column="USER_ID" jdbcType="BIGINT" property="userId" />
+        <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+        <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+        <result column="DEPT_ID" jdbcType="BIGINT" property="deptId" />
+        <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+        <result column="MOBILE" jdbcType="VARCHAR" property="mobile" />
+        <result column="STATUS" jdbcType="CHAR" property="status" />
+        <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="MODIFY_TIME" jdbcType="TIMESTAMP" property="modifyTime" />
+        <result column="LAST_LOGIN_TIME" jdbcType="TIMESTAMP" property="lastLoginTime" />
+        <result column="SSEX" jdbcType="CHAR" property="ssex" />
+        <result column="DESCRIPTION" jdbcType="VARCHAR" property="description" />
+        <result column="AVATAR" jdbcType="VARCHAR" property="avatar" />
+    </resultMap>
+
     <sql id="tb_name">
         t_user u
     </sql>
@@ -11,4 +27,14 @@
             u.USERNAME = #{username}
         </where>
     </select>
+
+    <select id="findByPage" parameterType="com.springboot.ztproject.vo.PageBean" resultMap="BaseResultMap" >
+        select u.*  from  <include refid="tb_name"/>
+        order  by USER_ID ASC limit ${pageIndex},${pageSize}
+    </select>
+
+    <select id="getTotalCount" parameterType="tbUser" resultType="java.lang.Integer">
+        select count(1) from  <include refid="tb_name"/>
+    </select>
+
 </mapper>

@@ -1,11 +1,15 @@
 package com.springboot.ztproject.service.impl;
 
 import com.springboot.ztproject.common.config.MyMapper;
+import com.springboot.ztproject.pojo.TbUser;
 import com.springboot.ztproject.service.BaseService;
+import com.springboot.ztproject.util.HttpResultUtil;
+import com.springboot.ztproject.vo.PageBean;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * 基础公共服务层实现
@@ -71,5 +75,29 @@ public class BaseServiceImpl<T> implements BaseService<T> {
      */
     public int updateByPrimaryKey (T t) {
         return myMapper.updateByPrimaryKey (t);
+    }
+
+    /**
+     * 公共分页
+     * @param page
+     * @return
+     */
+    @Override
+    public PageBean<T> findByPage (PageBean<T> page) {
+        PageBean<T> pageBean = new PageBean<> ();
+        List<T> list = myMapper.findByPage(page);
+        pageBean.setDataList (list);
+        return pageBean;
+    }
+
+    /**
+     * 获取总页数
+     *
+     * @param t
+     * @return
+     */
+    @Override
+    public Integer getTotalCount (T t) {
+        return myMapper.getTotalCount (t);
     }
 }
